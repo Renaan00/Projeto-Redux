@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:arial,'sans-serif';
+}
+.container-forms {
+    background-color: rgb(214, 214, 214);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-forms .box-forms {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-forms .box-forms .section-01,
+.container-forms .box-forms .section-02 {
+    width: 40%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-forms .box-forms .section-01 {
+    background-color: rgb(177, 64, 55);
+}
+.container-forms .box-forms .section-01 form {
+    display: flex;
+    flex-direction: column;
+}
+.container-forms .box-forms .section-01 label {
+    font-size: 2.5em;
+}
+.container-forms .box-forms .section-01 input {
+    width: 15vw;
+    height: 5vh;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: black;
+}
+.container-forms .box-forms .section-01 h1 {
+    font-size: 2em;
+    padding-top: 50px;
+}
+.container-forms .box-forms .section-02 {
+    background-color: rgb(212, 123, 88);
+}
+.container-forms .box-forms .section-02 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-forms .box-forms .section-02 label {
+    font-size: 2em;
+}
+.container-forms .box-forms .section-02 input {
+    width: 15vw;
+    height: 5vh;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: black;
+}
+.container-forms .box-forms .section-02 button {
+    background-color: lightsalmon;
+    width: 15vw;
+    height: 4vh;
+    color: black;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
